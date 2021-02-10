@@ -25,6 +25,7 @@ declare const styles: {
     dropDownImage: {
         height: number;
         width: number;
+        alignSelf: 'center';
     };
     textContainer: {
         flex: number;
