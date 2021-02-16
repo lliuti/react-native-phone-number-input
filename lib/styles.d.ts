@@ -2,7 +2,11 @@ declare const styles: {
     container: {
         width: number;
         backgroundColor: string;
-        flexDirection: "row";
+        flexDirection: 'row',
+        borderColor: '#F2F2F2',
+        borderWidth: number,
+        borderRadius: number,
+        alignItems: 'center',
     };
     flagButtonView: {
         width: number;
